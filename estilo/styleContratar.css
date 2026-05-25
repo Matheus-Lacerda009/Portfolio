@@ -62,76 +62,77 @@ nav ul li a:hover{
     padding: 80px 8%;
 }
 
-.texto-apresentacao{
-    max-width: 400px;
-    background-color: rgb(0, 0, 82);
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.texto-apresentacao .saudacao{
-    color: #006494;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.texto-apresentacao h1{
-    font-size: 60px;
-    margin-bottom: 15px;
-}
-
-.texto-apresentacao h1 span{
-    color: #1b98e0;
-}
-
-.texto-apresentacao p{
-    color: gray;
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.grupo-botoes{
-    display: flex;
-    gap: 20px
-}
-
-.btn{
-    padding: 12px 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    transform: 0.3;
-    border: 3px solid rgb(0, 94, 156);
-    color: white;
-    transition: .5s;
-}
-
-.btn:hover{
-    background-color: white;
-    color: #006494;
-}
-
-.area-imagem{
-    width: 800px;
-    height: 490px;
-}
-
-.moldura-circular{
+.contratar-box{
+    margin: auto;
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    overflow: hidden;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(173, 216, 230, 0.767);
+}
+
+.contratar-box h1{
+    text-align: center;
+    font-size: 34px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contratar-box h1 span{
+    color: blue;
+}
+
+.contratar-box p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-group p{
+    text-align: center;
+    color: #888;
+}
+
+.contratar-box{
+    margin-bottom: 40px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.input-box{
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 8px solid #1092cf
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
 }
 
-.moldura-circular img{
+.input-box input{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #0d7df2;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background: rgb(0, 0, 224);
 }
 
 footer{
