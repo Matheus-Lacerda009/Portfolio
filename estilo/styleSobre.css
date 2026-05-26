@@ -58,7 +58,7 @@ nav ul li a:hover{
 .secao-principal{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 80px 8%;
 }
 
@@ -80,8 +80,11 @@ nav ul li a:hover{
 
 footer{
     background-color: #006494;
-    padding: 40px 8%;
+    padding: 40px 0;
     text-align: center;
+    position: fixed; 
+    bottom: 0;       
+    width: 100%;     
 }
 
 .conteudo-rodape{
